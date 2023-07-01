@@ -1,0 +1,345 @@
+/* kanit-100 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./Fonts/kanit-v13-latin-100.woff2") format("woff2");
+}
+/* kanit-200 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./Fonts/kanit-v13-latin-200.woff2") format("woff2");
+}
+/* kanit-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./Fonts/kanit-v13-latin-300.woff2") format("woff2");
+}
+/* kanit-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Fonts/kanit-v13-latin-400.woff2") format("woff2");
+}
+/* kanit-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Fonts/kanit-v13-latin-500.woff2") format("woff2");
+}
+/* kanit-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./Fonts/kanit-v13-latin-600.woff2") format("woff2");
+}
+/* kanit-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./Fonts/kanit-v13-latin-700.woff2") format("woff2");
+}
+/* kanit-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./Fonts/kanit-v13-latin-800.woff2") format("woff2");
+}
+/* kanit-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./Fonts/kanit-v13-latin-900.woff2") format("woff2");
+}
+:root {
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+*::selection {
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+}
+
+body {
+  font-weight: 400;
+  background: #202c36;
+  font-family: "Kanit", sans-serif;
+}
+
+image,
+img {
+  width: 1100%;
+  height: 100%;
+  display: block;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1520px;
+}
+
+#navbar-section {
+  width: 100%;
+  background: #2b3844;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbar-label {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.navbar-input {
+  display: none;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-search {
+  width: 100%;
+  height: 56px;
+  max-width: 480px;
+  border-radius: 5px;
+  background: #2b3844;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header-input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 24px;
+  background: transparent;
+
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header-input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.header-button {
+  width: 20%;
+  height: 100%;
+  font-size: 20px;
+  background: transparent;
+}
+
+.header-select {
+  width: 100%;
+  height: 56px;
+  border: none;
+  outline: none;
+  max-width: 200px;
+  padding: 10px 24px;
+  border-radius: 5px;
+  background: #2b3844;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header-option {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 10px 15px;
+  background: #2b3844;
+}
+
+.header-option:hover {
+  background: #2b3844;
+}
+
+.main-content {
+  gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* card */
+.country-card {
+  width: 100%;
+  height: 336px;
+  display: flex;
+  max-width: 264px;
+  border-radius: 5px;
+  background: #2b3844;
+  flex-direction: column;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+
+.country-card__flag {
+  width: 100%;
+  height: 160px;
+}
+
+.country-card__info {
+  gap: 10px;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+}
+
+.country-card__name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+
+.country-card__population,
+.country-card__capital,
+.country-card__region {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.country-card__population span,
+.country-card__capital span,
+.country-card__region span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 16px;
+}
+
+@media (max-width: 1000px) {
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-content {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-select,
+  .header-search {
+    max-width: 100%;
+  }
+
+  .main-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar-content {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-title {
+    font-size: 18px;
+  }
+
+  .navbar-label {
+    font-size: 12px;
+  }
+}
