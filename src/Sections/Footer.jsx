@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-content">
         <p className="footer-title">
           Powered by:
-          <a href="" className="footer-link">
+          <a href="https://t.me/m1rzo_dev" className="footer-link">
             m1rzo_dev
           </a>
         </p>
